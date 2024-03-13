@@ -3,7 +3,7 @@ body{
     font-family: 'Courier New', Courier, monospace ;
 }
 .pembuka{   /*div utama*/
-    background: rgba(0, 0, 0, 0.447) url("./Asset/Screenshot\ 2024-02-20\ 093447.jpg");
+    background: rgba(0, 0, 0, 0.447) url("./Asset/WONDER.jpg");
     background-blend-mode: darken;
     background-size: cover;
     background-position: center top;
