@@ -1,0 +1,363 @@
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace ;
+}
+.pembuka{   /*div utama*/
+    background: rgba(0, 0, 0, 0.447) url("./Screenshot\ 2024-02-20\ 093447.jpg");
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center top;
+    height: 100vh;
+    text-align: center;
+    line-height: 100vh;
+    background-attachment: fixed;
+}
+
+#kalimatPembuka{
+    display: inline-block;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    vertical-align: middle;
+    line-height: normal;
+    border-radius: 4px;
+    margin: 0;
+    padding: 4px;
+    background-color: rgba(0, 0, 0, 0.553);
+    backdrop-filter: blur(10px);
+}
+
+.navbar{    /*div utama*/
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+}
+
+.buttonNav{
+    display: inline-block;
+    color: white;
+    padding: 20px 15px;
+    transition-duration: 0.3s;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.buttonNav:hover{
+    background-color: darkslategrey;
+}
+
+#logo{
+    float: left;
+    padding: 0;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#foto{
+    width: 45px;
+    border-radius: 10px;
+}
+
+/* .perkenalan{ (notes: div utama jgn pake position ribet ngaturnya kalo mau responsive)
+    position: relative;
+} */
+
+.aboutMe{   /*div utama*/
+    padding-top: 65px;
+    padding-bottom: 45px
+}
+
+.gambarBulet{
+    width: 100%;
+    height: 100%;
+    max-height: 190px;
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+#first.perkenalan{
+    display: block;
+    text-align: center;
+    /* height: 320px; */
+    padding-bottom: 5px;
+}
+
+.kontenPerkenalan{
+    max-width: 450px;
+    width: 80%; 
+    text-align:justify;
+    margin: 20px auto;
+    margin-bottom: 0px;
+}
+
+#nama{
+    font-weight: bold;
+}
+
+.perkenalanBawah{
+    display: inline-block;
+    width: 49%;
+    padding-bottom: 5px;
+    /* position: relative; */
+    vertical-align: top;
+}
+
+#second.perkenalanBawah{
+    text-align: center;
+}
+
+#third.perkenalanBawah{
+    display: inline-block;
+    right: 0;
+    text-align: center;
+}
+
+.myPorto{   /*div utama*/
+    display: block;
+    padding-top: 15px;
+}
+
+#tulisanPorto{
+    margin: 0;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-weight:900;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.containerPorto{
+    text-align: center;
+    width: 100%;
+    letter-spacing: -5px;
+}
+
+.fotoPorto{
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    max-width: 270px;
+    max-height: 260px;
+    margin-bottom: 20px;
+}
+
+hr{
+    margin-top: 55px;
+    /* margin-bottom: 40px; */
+    width: 100%;
+    max-width: 400px;
+    /* font-weight: bold; */
+}
+
+.judulKontak{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+
+form{
+    display: inline-block;
+    width: 49%;
+    padding-bottom: 5px;
+    vertical-align: top;
+}
+
+label{
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    display: block;
+    font-weight: bold;
+}
+
+input, textarea{
+    display: inline-block;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.inputan{
+    display: block;
+    width: 85%;
+    margin: 0 auto;
+}
+
+#pesanInput{
+    height: 150px;
+}
+
+button{
+    background-color: darkgreen;
+    color: white;
+    border-radius: 4px;
+    border: 0;
+    padding: 10px;
+    width: 100%;
+    transition-duration: 1s;
+}
+
+button:hover{
+    background-color: rgb(0, 57, 0)
+}
+
+.kontakFoto{
+    max-width: 55px;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.kontakSaya{    /*div utama*/
+    padding-top: 20px;
+}
+
+#bottom_right.perkenalanBawah{
+    display: inline-block;
+    text-align: center;
+}
+
+h3{
+    display: none;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.kontakList{
+    margin-top: 40px;
+}
+
+.ingpo{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+#satuanKontak > p{
+    color: black;
+}
+
+#satuanKontak{
+    display: block;
+    margin-bottom: 35px;
+}
+
+footer > p{
+    display: block;
+    margin: 0;
+    color: white;
+    text-align: center;
+    height: 20px;
+    
+}
+
+footer{
+    margin-top: 40px ;
+    padding: 20px 0;
+    background-color: black;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  
+    /*navbar*/
+
+    #logo{
+        display: none;
+    }
+
+    .navbar{
+        text-align: center;
+    }
+
+    .buttonNav{
+        font-size: 0.8rem;
+    }
+
+    /*About Me*/
+
+    #first.perkenalan{
+        height: 320px;
+    }
+
+    #second.perkenalanBawah{
+        height: 320px;
+    }
+
+
+    .kontenPerkenalan{
+        margin-bottom: 20px;
+    }
+
+    .aboutMe{
+        text-align: center;
+    }
+
+    .spacer{
+        display: none;
+    }
+
+    .perkenalanBawah{
+        width: 100%;
+        
+    }
+
+    /*My Porto*/
+
+    #tulisanPorto{
+        margin-top: 0;
+    }
+
+    hr{
+        max-width: 300px;
+    }
+
+    .kontakSaya{
+        text-align: center;
+    }
+
+    form{
+        width: 100%;
+        display: block;
+    }
+    
+    /* Kontak Saya */
+
+    label{
+        text-align: start;
+        font-size: 1.1rem;
+    }
+
+    .inputan{
+        margin-top: 10px;
+    }
+
+    h3{
+        display: block;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .ingpo{
+        display: none;
+    }
+
+    #satuanKontak{
+        display: inline-block;
+        padding: 0px 30px;
+    }
+
+    .kontakList{
+        padding: 0;
+        margin: 0;
+        margin-top: 20px;
+    }
+    
+    footer{
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>latianAkhir</title>
+    <script src="./jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <div class="pembuka" id="WonderWoman">
+        <p id="kalimatPembuka"><b>Halo selamat datang di web saya</b></p>
+    </div>
+    
+    <ul class="navbar">
+        <a href="#AboutMe" class="tombolNav" ><li class="buttonNav">About Me</li></a>
+        <a href="#MyPorto" class="tombolNav"><li class="buttonNav">My Portofolio</li></a>
+        <a href="#ContactMe" class="tombolNav"><li class="buttonNav">Contact Me</li></a>
+        <li id="logo"><img id="foto" src="./motor.jpg" alt="motor"></li>
+    </ul>
+
+    <div class="aboutMe" id="AboutMe">
+        <div class="perkenalan" id="first">
+            <img src="./Screenshot 2024-01-10 142032.png" alt="tooth" class="gambarBulet" id="first">
+            <p class="kontenPerkenalan" id="first">Perkenalkan nama saya <span id="nama">Farhan Amanullah Iryadi</span> biasa dipanggil <span id="nama">Han</span>, umur punjul 20. Mimpi hanya ingin menjadi lebih baik :)</p>
+        </div>
+    
+        <br class="spacer"><br class="spacer">
+    
+        <div class="perkenalanBawah" id="second">
+            <img src="c:\Users\iryad\OneDrive\Gambar\mangan.png" alt="mangan" class="gambarBulet" id="mangan">
+            <p class="kontenPerkenalan">Saya telah mengikuti beberapa kelas khusus untuk membuat tampilan web responsive dan telah mempunyai beberapa sertifikat</p>
+        </div>
+    
+        <div class="perkenalanBawah" id="third">
+            <img src="c:\Users\iryad\OneDrive\Gambar\Screenshot\Screenshot 2023-12-07 232722.png" alt="mangan" class="gambarBulet" id="mangan">
+            <p class="kontenPerkenalan">Saya telah mengusasi cara membuat tampilan website dengan menggunakna <b>HTML</b>, <b>CSS</b> dan <b>JavaScript</b> saya juga dapat menggunakan Framework modern seperti <b>Bootstrap</b></p>
+        </div>
+    </div>
+
+    <div class="myPorto" id="MyPorto">
+        <h1 id="tulisanPorto">My Portofolio</h1>
+        <div class="containerPorto">
+            <img src="c:\Users\iryad\OneDrive\Gambar\Freedom_lock.png" alt="freedom" class="fotoPorto">
+            <img src="c:\Users\iryad\OneDrive\Gambar\THEY SHALL NOT PASS.jpg" alt="freedom" class="fotoPorto">
+            <img src="c:\Users\iryad\OneDrive\Gambar\Screenshot\Screenshot 2023-09-25 225950.png" alt="freedom" class="fotoPorto">
+            <img src="c:\Users\iryad\OneDrive\Gambar\Screenshot\Screenshot 2023-11-09 005007.png" alt="freedom" class="fotoPorto">
+            <hr id="garisBawah"/>
+        </div>
+    </div>
+
+    <div class="kontakSaya" id="ContactMe">
+        <div class="judulKontak"><h2 id="tulisanPorto">Kontak saya</h2></div>
+    
+        <form>
+            <div class="inputan">
+                <label for="namaInput">Nama</label>
+                <input type="text" id="namaInput">
+            </div>
+
+            <div class="inputan">
+                <label for="emailInput">Email</label>
+                <input type="email" id="emailInput">
+            </div>
+
+            <div class="inputan">
+                <label for="pesanInput">Pesan</label>
+                <textarea id="pesanInput">Apa aja bolee</textarea>
+            </div>
+
+            <a href="#WonderWoman" style="text-decoration: none;" id="tombolKirim">
+                <button class="inputan" type="button">Kirim!</button>
+            </a>
+            
+        </form>
+    
+        <div class="perkenalanBawah" id="bottom_right">
+            <h3>Ketik salah satu untuk mendapat info</h3>
+            <ul class="kontakList">
+                <li id="satuanKontak">
+                    <a href="tel:088991998322"><img src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/phone-512.png" alt="telpon" class="kontakFoto"></a>
+                    <p class="ingpo">088991998322</p>
+                </li>
+                <li id="satuanKontak">
+                    <a href="mailto:iryadifarhan@gmail.com"><img src="https://png.pngtree.com/png-vector/20190927/ourmid/pngtree-email-icon-png-image_1757854.jpg" alt="telpon" class="kontakFoto"></a>
+                    <p class="ingpo">iryadifarhan@gmail.com</p>
+                </li>      
+                <li id="satuanKontak">
+                    <a href="https://steamcommunity.com/profiles/76561198330251207/" target="_blank"><img src="https://banner2.cleanpng.com/20180604/xiy/kisspng-steam-computer-icons-logo-video-game-valves-5b14dba6212cf3.1367866015280936061359.jpg" alt="telpon" class="kontakFoto"></a>
+                    <p class="ingpo">**SPOILER**</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="./tes.js">
+        
+    </script>
+
+    <footer>
+        <p>© Hantot, Inc. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
